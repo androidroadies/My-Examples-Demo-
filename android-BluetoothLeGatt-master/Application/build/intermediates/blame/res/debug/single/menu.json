@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "F:\\Bcoda RND Demo\\android-BluetoothLeGatt-master\\android-BluetoothLeGatt-master\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\gatt_services.xml",
+        "source": "F:\\Bcoda RND Demo\\android-BluetoothLeGatt-master\\android-BluetoothLeGatt-master\\Application\\src\\main\\res\\menu\\gatt_services.xml"
+    },
+    {
+        "merged": "F:\\Bcoda RND Demo\\android-BluetoothLeGatt-master\\android-BluetoothLeGatt-master\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "F:\\Bcoda RND Demo\\android-BluetoothLeGatt-master\\android-BluetoothLeGatt-master\\Application\\src\\main\\res\\menu\\main.xml"
+    }
+]

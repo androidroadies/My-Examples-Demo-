@@ -1,0 +1,1 @@
+F:\Bcoda RND Demo\android-BluetoothLeGatt-master\android-BluetoothLeGatt-master\Application\build\intermediates\classes\debug

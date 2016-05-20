@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\Bcoda RND Demo\android-BluetoothLeGatt-master\android-BluetoothLeGatt-master\Application\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d96886efea7cc74fbb3abd0e3b51d5638fc57be0">
+        <dex dex="F:\Bcoda RND Demo\android-BluetoothLeGatt-master\android-BluetoothLeGatt-master\Application\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-23.1.0_c79e6c59d4e90d8ab4db5b54688abae09b77fce3.jar" />
+    </item>
+    <item
+        jar="F:\Bcoda RND Demo\android-BluetoothLeGatt-master\android-BluetoothLeGatt-master\Application\build\intermediates\exploded-aar\com.android.support\design\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8a5238e4bdcd6568b82db669d41817de670586b8">
+        <dex dex="F:\Bcoda RND Demo\android-BluetoothLeGatt-master\android-BluetoothLeGatt-master\Application\build\intermediates\pre-dexed\debug\com.android.support-design-23.0.0_cb74ae49f39cef3f557947928cba7ec5b2111b47.jar" />
+    </item>
+    <item
+        jar="F:\Bcoda RND Demo\android-BluetoothLeGatt-master\android-BluetoothLeGatt-master\Application\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="F:\Bcoda RND Demo\android-BluetoothLeGatt-master\android-BluetoothLeGatt-master\Application\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.0_0c5867227b63b78d0ed9a4086ca28f516e554b89.jar" />
+    </item>
+    <item
+        jar="F:\Bcoda RND Demo\android-BluetoothLeGatt-master\android-BluetoothLeGatt-master\Application\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a57337a520bf40b9ad1e074cb780527dffa1aac">
+        <dex dex="F:\Bcoda RND Demo\android-BluetoothLeGatt-master\android-BluetoothLeGatt-master\Application\build\intermediates\pre-dexed\debug\com.android.support-support-v13-23.1.0_332e286084167511e7cddc119541c3f997208688.jar" />
+    </item>
+    <item
+        jar="F:\Bcoda RND Demo\android-BluetoothLeGatt-master\android-BluetoothLeGatt-master\Application\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="F:\Bcoda RND Demo\android-BluetoothLeGatt-master\android-BluetoothLeGatt-master\Application\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.0_7b42fd20fe9436dc857aaa319be4cf70b6d5170a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mayank\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="F:\Bcoda RND Demo\android-BluetoothLeGatt-master\android-BluetoothLeGatt-master\Application\build\intermediates\pre-dexed\debug\support-annotations-23.1.0_e58b617b27525ff2f014ce432bb43b3bbe0557ad.jar" />
+    </item>
+    <item
+        jar="F:\Bcoda RND Demo\android-BluetoothLeGatt-master\android-BluetoothLeGatt-master\Application\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="076c7d9e22cc325b8008ff799e0c06dfb8eefdf3">
+        <dex dex="F:\Bcoda RND Demo\android-BluetoothLeGatt-master\android-BluetoothLeGatt-master\Application\build\intermediates\pre-dexed\debug\internal_impl-23.1.0_74e8a4c9adadce6741a0b933448fc08811f6f201.jar" />
+    </item>
+    <item
+        jar="F:\Bcoda RND Demo\android-BluetoothLeGatt-master\android-BluetoothLeGatt-master\Application\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="F:\Bcoda RND Demo\android-BluetoothLeGatt-master\android-BluetoothLeGatt-master\Application\build\intermediates\pre-dexed\debug\internal_impl-23.1.0_2e4a12e4c5ee24daf19edb63d51093d59460a44c.jar" />
+    </item>
+
+</items>
