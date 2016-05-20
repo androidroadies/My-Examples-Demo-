@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@drawable/bg">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/setting_header" >
+
+        <ImageButton
+            android:id="@+id/image_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/back" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/image_aboutron"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/about_ron_white_small" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/image_aboutron" android:layout_above="@+id/tbl1">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dip"
+                android:background="@drawable/form_small" />
+
+            <ImageButton
+                android:id="@+id/image_starus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/imageView1"
+                android:layout_marginBottom="5dip"
+                android:layout_marginLeft="10dip"
+                android:background="@drawable/stra_us_small" />
+
+             <ImageButton
+                android:id="@+id/image_feedback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/image_starus"
+                android:background="@drawable/send_us_feedback_small" 
+                android:layout_marginLeft="5dip"/>
+
+            <CheckBox
+                android:id="@+id/imageButton4"
+                android:layout_width="70dip"
+                android:layout_height="40dip"
+                android:layout_above="@+id/imageButton5"
+                android:layout_alignLeft="@+id/imageButton3"
+                android:layout_marginBottom="47dp"
+                android:button="@drawable/button4" />
+
+            <CheckBox
+                android:id="@+id/imageButton3"
+                android:layout_width="70dip"
+                android:layout_height="40dip"
+                android:layout_above="@+id/imageButton4"
+                android:layout_alignLeft="@+id/imageButton2"
+                android:layout_marginBottom="41dp"
+                android:button="@drawable/button3" />
+
+            <CheckBox
+                android:id="@+id/imageButton1"
+                android:layout_width="70dip"
+                android:layout_height="40dip"
+                android:layout_above="@+id/imageButton2"
+                android:layout_alignRight="@+id/imageView1"
+                android:layout_marginBottom="41dp"
+                android:layout_marginRight="38dp"
+                android:button="@drawable/tab_home" />
+
+            <CheckBox
+                android:id="@+id/imageButton2"
+                android:layout_width="70dip"
+                android:layout_height="40dip"
+                android:layout_above="@+id/imageButton3"
+                android:layout_alignLeft="@+id/imageButton1"
+                android:layout_marginBottom="44dp"
+                android:button="@drawable/button2" />
+
+            <CheckBox
+                android:id="@+id/imageButton6"
+                android:layout_width="70dip"
+                android:layout_height="40dip"
+                android:layout_alignBottom="@+id/imageView1"
+                android:layout_alignLeft="@+id/imageButton5"
+                android:layout_marginBottom="119dp"
+                android:button="@drawable/button6" />
+
+            <CheckBox
+                android:id="@+id/imageButton5"
+                android:layout_width="70dip"
+                android:layout_height="40dip"
+                android:layout_above="@+id/imageButton6"
+                android:layout_alignLeft="@+id/imageButton4"
+                android:layout_marginBottom="38dp"
+                android:button="@drawable/button5" />
+            
+        </RelativeLayout>
+    </ScrollView>
+    <TableLayout
+        android:id="@+id/tbl1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/img_enatename_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/enter_name" android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/img_review_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/review_names" android:layout_weight="1"/>
+
+            <ImageView
+                android:id="@+id/img_memory_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/memory_training" android:layout_weight="1" />
+
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

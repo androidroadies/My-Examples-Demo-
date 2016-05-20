@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	
+	
+	<color name="tabMedium">#2B2B2B</color>
+	<color name="tabDark">#558899</color>
+	<color name="tabTransparent">#10ffffff</color>
+	
+	<color name="web">#ffffcc</color>
+	
+	
+</resources>

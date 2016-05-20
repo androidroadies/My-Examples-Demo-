@@ -1,0 +1,2 @@
+include ':ffmpeg4android', ':audiocutter'
+include ':ffmpeg4android_client_demo'

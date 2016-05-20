@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linclick"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/form_bg" >
+
+    <ImageView
+        android:id="@+id/img_group_listraw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="2dip"
+        android:background="@drawable/client" />
+
+    <ImageView
+        android:id="@+id/img_plan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="2dip"
+        android:layout_toRightOf="@+id/img_group_listraw"
+        android:background="@drawable/call_text" />
+
+    <TextView
+        android:id="@+id/txt_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img_plan"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txt_favview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img_plan"
+        android:gravity="center_vertical"
+        android:text="jsfghjuish"
+        android:textColor="#333300"
+        android:textStyle="bold" android:layout_marginLeft="3dip"/>
+
+    <TextView
+        android:id="@+id/txt_search_plan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt_desc"
+        android:layout_alignBottom="@+id/txt_desc"
+        android:layout_alignRight="@+id/txt_favview"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txt_desc"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+         android:layout_toRightOf="@+id/img_plan"
+        android:gravity="center_vertical"
+        android:text="dummmy dffffffffffffffffffffffffffff"
+        android:singleLine="true"
+        android:textColor="#333300"
+        android:textStyle="bold" android:layout_marginLeft="3dip"/>
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/delete" />
+
+</RelativeLayout>

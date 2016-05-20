@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg" xmlns:app="http://schemas.android.com/apk/lib/com.google.ads">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header" />
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="24dp"
+        android:text="Email :"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FBF4CA"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_margin="5dip"
+        android:background="@drawable/form"
+        android:ems="10"
+        android:paddingLeft="10dip"
+        android:inputType="textPersonName" android:hint="Email"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edt_email"
+        android:layout_marginLeft="5dip"
+        android:text="First Name :"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FBF4CA"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_firstname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_margin="5dip"
+        android:background="@drawable/form"
+        android:ems="10"
+        android:paddingLeft="10dip"
+        android:inputType="textPersonName" android:hint="First Name">
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edt_firstname"
+        android:text="Last Name :"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FBF4CA"
+        android:textStyle="bold" android:layout_marginLeft="5dip"/>
+
+    <EditText
+        android:id="@+id/edt_lastname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView3"
+        android:layout_margin="5dip"
+        android:background="@drawable/form"
+        android:ems="10"
+        android:paddingLeft="10dip"
+        android:inputType="textPersonName" android:hint="Last Name"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edt_lastname"
+        android:text="Birth Date"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FBF4CA"
+        android:textStyle="bold" android:layout_marginLeft="5dip"/>
+
+    <EditText
+        android:id="@+id/edt_birthdate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/edt_lastname"
+        android:layout_below="@+id/textView4"
+        android:layout_margin="5dip"
+        android:background="@drawable/form"
+        android:ems="10"
+        android:hint="Birth Date"
+        android:paddingLeft="10dip"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_below="@+id/edt_birthdate"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/register_button" />
+
+    <Button
+        android:id="@+id/bnt_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_register"
+        android:layout_alignBottom="@+id/btn_register"
+        android:layout_alignRight="@+id/edt_birthdate"
+        android:layout_marginRight="42dp"
+        android:background="@drawable/cancel_button" />
+
+    <com.google.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        ads:loadAdOnCreate="true"
+        app:adSize="BANNER"
+        app:adUnitId="a152173d7e09f1c" >
+    </com.google.ads.AdView>
+
+</RelativeLayout>

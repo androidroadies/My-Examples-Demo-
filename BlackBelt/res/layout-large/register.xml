@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:background="@drawable/header" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="24dp"
+        android:text="Email :"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FBF4CA"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_margin="5dip"
+        android:background="@drawable/form"
+        android:ems="10"
+        android:inputType="textPersonName" android:hint="Email"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edt_email"
+        android:layout_marginLeft="5dip"
+        android:text="First Name :"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FBF4CA"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_firstname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_margin="5dip"
+        android:background="@drawable/form"
+        android:ems="10"
+        android:inputType="textPersonName" android:hint="First Name">
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edt_firstname"
+        android:text="Last Name :"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FBF4CA"
+        android:textStyle="bold" android:layout_marginLeft="5dip"/>
+
+    <EditText
+        android:id="@+id/edt_lastname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView3"
+        android:layout_margin="5dip"
+        android:background="@drawable/form"
+        android:ems="10"
+        android:inputType="textPersonName" android:hint="Last Name"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edt_lastname"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FBF4CA"
+        android:textStyle="bold" android:layout_marginLeft="5dip"/>
+
+    <EditText
+        android:id="@+id/edt_birthdate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/edt_lastname"
+        android:layout_below="@+id/textView4"
+        android:layout_margin="5dip"
+        android:background="@drawable/form"
+        android:ems="10"
+        android:hint="Birth Date"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/textView2"
+        android:background="@drawable/register_button" />
+
+    <Button
+        android:id="@+id/bnt_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_register"
+        android:layout_alignBottom="@+id/btn_register"
+        android:layout_marginLeft="101dp"
+        android:layout_toRightOf="@+id/btn_register"
+        android:background="@drawable/cancel_button" />
+
+</RelativeLayout>

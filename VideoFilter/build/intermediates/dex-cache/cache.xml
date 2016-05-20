@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Share\SelfieSoapbox\Mayank\source\ffmpeg4android_client_demo\build\intermediates\exploded-aar\source\ffmpeg4android\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c2f65211817a399dfd71d5e391f3e931bc83d695">
+        <dex dex="E:\Share\SelfieSoapbox\Mayank\source\ffmpeg4android_client_demo\build\intermediates\pre-dexed\debug\classes-40b1a1827e9c1d7b3456a075823150a119ecc711.jar" />
+    </item>
+    <item
+        jar="E:\Share\SelfieSoapbox\Mayank\source\ffmpeg4android_client_demo\build\intermediates\exploded-aar\com.edmodo\rangebar\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b935227af51c2df70e2be2cbfc5872ff2d726ed5">
+        <dex dex="E:\Share\SelfieSoapbox\Mayank\source\ffmpeg4android_client_demo\build\intermediates\pre-dexed\debug\classes-a01fb857e999363b1c0a660a5eb30195a0caff96.jar" />
+    </item>
+    <item
+        jar="E:\Share\SelfieSoapbox\Mayank\source\ffmpeg4android_client_demo\build\intermediates\exploded-aar\source\audiocutter\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a0bf748a1b9ca4f3db12b4408a4c9f96c904f3eb">
+        <dex dex="E:\Share\SelfieSoapbox\Mayank\source\ffmpeg4android_client_demo\build\intermediates\pre-dexed\debug\classes-f3397d30345a9b9f1667dcc4bda7e735bf43803a.jar" />
+    </item>
+    <item
+        jar="C:\Users\multidots\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="E:\Share\SelfieSoapbox\Mayank\source\ffmpeg4android_client_demo\build\intermediates\pre-dexed\debug\support-v4-18.0.0-5956040ffc630f690acf1d3b669ddd551b47fc1b.jar" />
+    </item>
+
+</items>

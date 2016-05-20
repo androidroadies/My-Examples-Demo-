@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/first"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imgbtn_login_email"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/or_small"
+        android:gravity="center_horizontal"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cb_facebook"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/sign_in_with_small" android:id="@+id/textView2"/>
+
+    <ImageButton 
+        android:id="@+id/imgbtn_login_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/email_small"
+        android:ems="10"
+        android:singleLine="true" android:textColor="#ffffff">
+
+    </ImageButton>
+
+    <CheckBox
+        android:id="@+id/cb_facebook"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_alignLeft="@+id/imgbtn_login_email"
+        android:layout_alignRight="@+id/imgbtn_login_email"
+        android:button="@drawable/facebook_samll"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_horizontal" />
+
+</RelativeLayout>

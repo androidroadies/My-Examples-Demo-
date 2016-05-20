@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">demo client</string>
+    <string name="welcome_demo">FFmpeg4Android Demo Activity shows how every application or service can use FFMpeg.</string>
+    <string name="commandTextView">This command will rotate /sdcard/videokit/in.mp4 90 degrees, and create /sdcard/videokit/vid_trans.mp4:</string>
+    <string name="command_video_trimming">ffmpeg -ss 00:00:00 -t 00:00:14 -i /sdcard/vid.mp4 -async 1 -vcodec copy -acodec copy /sdcard/outputFile.mp4</string>
+
+    <!--<string name="commandText">ffmpeg -y -i /sdcard/videokit/in.mp4 -strict experimental -vf transpose=1 -s 160x120 -r 30 -aspect 16:9 -ab 48000 -ac 2 -ar 22050 -b 2097k /sdcard/videokit/vid_trans.mp4</string>-->
+    <!--<string name="commandText">ffmpeg -y -i /sdcard/videokit/in.mp4 -filter_complex "-->
+
+    <!--[0:v]colorchannelmixer=0.98786:0.01538:0.00378:0.0:0.00698:0.99372:0.00336:0.0:0.00544:0.01068:0.98262:0.0[colorchannelmixed];-->
+    <!--[colorchannelmixed]eq=0.85:0.0175:0.02:1.0:1.0:1.0:1.0:1.0[color_effect]" -map [color_effect] -strict experimental -vf transpose=1 -s 160x120 -r 30 -aspect 4:3 -ab 48000 -ac 2 -ar 22050 -b 2097k /sdcard/videokit/vid_trans.mp4</string>-->
+
+    <!--<string name ="commandText">ffmpeg,-y ,-i, /sdcard/videokit/in.mp4,-strict", experimental, -filter_complex,-->
+    <!--"[0:v]colorchannelmixer=.393:.769:.189:0:.349:.686:.168:0:.272:.534:.131[colorchannelmixed];[colorchannelmixed]eq=1.0:0:1.3:2.4:1.0:1.0:1.0:1.0[color_effect],-->
+    <!---map, [color_effect],-map, 0:a, -vcodec, mpeg4,-b, 15496k, -ab, 48000, -ac, 2, -ar, 22050,/sdcard/videokit/out.mp4</string>-->
+
+    <!--Vintage filter working-->
+    <!--<string name="commandText">ffmpeg -y -i /sdcard/videokit/in.mp4 -strict experimental -vf curves=vintage -s 640x480 -r 30 -g 30 -b 30 -aspect 4:3 -ab 48000 -ac 2 -ar 22050 -b 2097k -vcodec mpeg4 /sdcard/videokit/curve.mp4</string>-->
+
+    <!--Black and White filter working-->
+    <!--<string name="commandText">ffmpeg -y -i /sdcard/videokit/in.mp4 -strict experimental -vf hue=s=0 -vcodec mpeg4 -b 2097152 -s 320x240 -r 30 /sdcard/videokit/BW.mp4</string>-->
+
+    <!--REd filter working-->
+    <!--<string name="commandText">ffmpeg -y -i /sdcard/videokit/in.mp4 -strict experimental -vf hue=s=10 -vcodec mpeg4 -b 2097152 -s 320x240 -r 30 /sdcard/videokit/Red.mp4</string>-->
+
+    <!--Blue filter working-->
+    <string name="commandText">ffmpeg -y -i /sdcard/videokit/in.mp4 -strict experimental -vf hue=s=10 -vcodec mpeg4 -b 2097152 -s 320x240 -r 30 /sdcard/videokit/Blue.mp4</string>
+
+    <!--sepia filter not working-->
+    <!--<string name="commandText">ffmpeg -i /sdcard/videokit/in.mp4 -filter_complex "[0:v]colorchannelmixer=.393:.769:.189:0:.349:.686:.168:0:.272:.534:.131[colorchannelmixed]; [colorchannelmixed]eq=1.0:0:1.3:2.4:1.0:1.0:1.0:1.0[color_effect]" -map [color_effect] -c:v libx264 -c:a copy /sdcard/videokit/result.mp4</string>-->
+
+    <!--Vintage filter not working-->
+    <!--<string name="commandText">ffmpeg -y -i /sdcard/videokit/in.mp4 -strict experimental -vf curves=vintage -s 640x480 -r 30 -g 30 -b 30 -aspect 4:3 -ab 48000 -ac 2 -ar 22050 -b 2097k -vcodec mpeg4 /sdcard/videokit/curve.mp4</string>-->
+
+    <!--Black and White filter not working-->
+    <!--<string name="commandText">ffmpeg -y -i /sdcard/videokit/in.mp4 -strict experimental -vf hue=s=0 -vcodec mpeg4 -b 2097152 -s 320x240 -r 30 /sdcard/videokit/out.mp4</string>-->
+
+    <!--Fade in out filter not working-->
+    <!--<string name="commandText">ffmpeg -y -i /sdcard/videokit/in.m4v -acodec copy -vf fade=t=in:st=0:d=5 fade=t=out:st=20:d=5 /sdcard/videokit/fadeinout.mp4</string>-->
+</resources>

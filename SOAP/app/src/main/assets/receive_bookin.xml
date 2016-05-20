@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <AuthenticationHeader xmlns="http://tempuri.org/">
+      <UserName>yardnorthtest</UserName>
+      <Password>yardnorthtest</Password>
+    </AuthenticationHeader>
+  </soap:Header>
+  <soap:Body>
+    <ReceiveBookedInVehicles xmlns="http://tempuri.org/">
+      <oBookedInVehicle>
+        <VehicleRequestID>24480</VehicleRequestID>
+        <Registration>HY14XTK</Registration>
+        <MakeText>RENAULT</MakeText>
+        <ModelText>MEGANE KNIGHT ED ENERGY D</ModelText>
+        <ColourText>RED</ColourText>
+        <ChassisNo>VF1BZ140650486124</ChassisNo>
+        <Mileage>11519</Mileage>
+        <VendorReference>ERAC U2</VendorReference>
+        <BookedInDate>0001-01-01T00:00:00</BookedInDate>
+        <DateRequested>2014-12-16T17:21:00</DateRequested>
+        <TaxExpiryDate>0001-01-01T00:00:00</TaxExpiryDate>
+        <Keys>false</Keys>
+        <TaxDisc>false</TaxDisc>
+        <Stereo>false</Stereo>
+        <Notes>string</Notes>
+        <VehicleImages>
+          <BookedInImage>
+            <Registration>string</Registration>
+            <ImageDescription>string</ImageDescription>
+            <FileName>string</FileName>
+          </BookedInImage>
+          <BookedInImage>
+            <Registration>string</Registration>
+            <ImageDescription>string</ImageDescription>
+            <FileName>string</FileName>
+          </BookedInImage>
+        </VehicleImages>
+      </oBookedInVehicle>
+    </ReceiveBookedInVehicles>
+  </soap:Body>
+</soap:Envelope>

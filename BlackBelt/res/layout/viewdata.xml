@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg" >
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bg_enter_name" >
+
+        <ImageButton
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/back" />
+
+        <ImageButton
+            android:id="@+id/imgbtn_edt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/imageButton2"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/edit_button" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/img_back"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dip"
+            android:layout_toLeftOf="@+id/imgbtn_save"
+            android:background="@drawable/done_button"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+            <com.google.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="a152173d7e09f1c"
+            ads:loadAdOnCreate="true" android:layout_below="@+id/relativeLayout1"/>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/adView" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <RelativeLayout
+                android:id="@+id/rel1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <EditText
+                    android:id="@+id/edt_typename"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dip"
+                    android:layout_marginTop="14dp"
+                    android:paddingLeft="10dip"
+                    android:background="@drawable/form_bg"
+                    android:ems="10"
+                    android:hint="Type Name"
+                    android:inputType="textPersonName" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/edt_outstanding"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edt_typename"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/form_bg"
+                     android:paddingLeft="10dip"
+                    android:ems="10"
+                    android:hint="Outstanding Facial Feature"
+                    android:inputType="textPersonName" />
+
+                <ImageButton
+                    android:id="@+id/imgbtn_map"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edt_outstanding"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginTop="8dip"
+                    android:background="@drawable/map" />
+
+                <TextView
+                    android:id="@+id/txt_map"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/imgbtn_map"
+                    android:layout_marginLeft="18dp"
+                    android:layout_toRightOf="@+id/imgbtn_map"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rel1" >
+
+                <ImageView
+                    android:id="@+id/imgbtn_camera"
+                    android:layout_width="46dip"
+                    android:layout_height="46dip"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginTop="5dip"
+                    android:background="@drawable/camera" />
+
+                <EditText
+                    android:id="@+id/edt_notes"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginRight="10dip"
+                    android:layout_toRightOf="@+id/imgbtn_camera"
+                    android:background="@drawable/notes_box"
+                    android:ems="10"
+                     android:paddingLeft="10dip"
+                    android:gravity="top"
+                    android:hint="Enter Notes"
+                    android:inputType="textMultiLine"
+                    android:lines="8"
+                    android:scrollbars="vertical" />
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imgbtn_camera"
+                    android:layout_marginLeft="9dip"
+                    android:layout_marginTop="5dip"
+                    android:background="@drawable/group_and_arrow" />
+
+                <ImageView 
+                    android:id="@+id/imgbnt_user"
+                    android:layout_width="46dip"
+                    android:layout_height="46dip"
+                    android:layout_below="@+id/imageButton4"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dip"
+                    android:background="@drawable/user" />
+
+                <ImageButton
+                    android:id="@+id/imageButton5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imgbnt_user"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginTop="5dip"
+                    android:background="@drawable/plan_and_arrow" />
+
+                <ImageView
+                    android:id="@+id/imgbtn_plan"
+                    android:layout_width="46dip"
+                    android:layout_height="46dip"
+                    android:layout_below="@+id/imageButton5"
+                    android:layout_marginLeft="10dip"
+                    android:background="@drawable/plan" />
+
+                <ImageView
+                    android:id="@+id/img_dialog"
+                    android:layout_width="300dip"
+                    android:layout_height="300dip"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/dialog_img"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/img_savename"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/save_name_small"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <SlidingDrawer
+        android:id="@+id/SlidingDrawer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:content="@+id/contentLayout"
+        android:handle="@+id/slideButton"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <LinearLayout
+            android:id="@+id/slideButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/contentLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bar"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <Button
+                android:id="@+id/btn_camera"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_margin="5dip"
+                android:background="@drawable/take_photo"
+                android:textStyle="bold" >
+            </Button>
+
+            <Button
+                android:id="@+id/btn_gallery"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_margin="5dip"
+                android:background="@drawable/choose_from_library"
+                android:textStyle="bold" >
+            </Button>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="5dip"
+                android:background="@drawable/seperatorimg" />
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="50dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dip"
+                android:background="@drawable/cancel_btn"
+                android:padding="10dip"
+                android:textStyle="bold" >
+            </Button>
+        </LinearLayout>
+    </SlidingDrawer>
+ <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:layout_alignParentBottom="true"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/img_entername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/enter_name" android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/img_reviewname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/review_names" android:layout_weight="1"/>
+
+            <ImageView
+                android:id="@+id/img_memory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/memory_training" android:layout_weight="1" />
+
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
