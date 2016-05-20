@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="Theme.Netswipe.TabletBase" parent="style/Theme.Netswipe.Base">
+	    <item name="android:windowIsFloating">false</item>
+	    <item name="android:windowContentOverlay">@null</item>
+	    <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
+	    <item name="android:windowActionModeOverlay">true</item>
+	    <item name="android:windowIsTranslucent">true</item>
+	    <item name="android:windowActionBar">true</item>
+	</style>
+    <style name="Theme.Netswipe" parent="style/Theme.Netswipe.TabletBase">
+	    <item name="netswipe_dialogToScreenRatioPortrait">0.7</item>
+	    <item name="netswipe_dialogToScreenRatioLandscape">0.7</item>
+	</style>
+</resources>

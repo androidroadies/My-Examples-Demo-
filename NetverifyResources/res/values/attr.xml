@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="netverify">
+        <attr name="netverify_dialogToScreenRatioPortrait" format="float" />
+        <attr name="netverify_dialogToScreenRatioLandscape" format="float" />
+        <attr name="netverify_buttonTextColor" format="color" />
+        <attr name="netverify_buttonColor" format="color" />
+    </declare-styleable>
+
+</resources>

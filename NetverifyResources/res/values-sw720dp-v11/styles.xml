@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Netverify" parent="style/Theme.Netverify.TabletBase">
+	    <item name="netverify_dialogToScreenRatioPortrait">0.6</item>
+	    <item name="netverify_dialogToScreenRatioLandscape">0.8</item>
+	</style>
+</resources>

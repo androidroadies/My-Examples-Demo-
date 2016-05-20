@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.Netswipe.Base" parent="@android:style/Theme.Holo">
+        <item name="android:actionBarStyle">@style/Widget.Netswipe.ActionBar</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="netswipe_buttonTextColor">@color/netswipe_button_text</item>
+        <item name="netswipe_buttonColor">@color/netswipe_button_background</item>
+    </style>
+    
+    <style name="Theme.Netswipe" parent="Theme.Netswipe.Base">
+    </style>
+
+    <style name="Widget.Netswipe.ActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">#000000</item>
+
+        <!-- just in case you want to customize the title text, we have it prepared
+        <item name="android:titleTextStyle">@style/Widget.Netswipe.ActionBar.TitleTextStyle</item>
+         -->
+    </style>
+
+    <!-- 
+    <style name="Widget.Netswipe.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+ 	-->
+    
+</resources>

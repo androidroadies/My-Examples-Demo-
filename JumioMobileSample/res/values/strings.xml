@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+	<!-- APP STRINGS -->
+	<string name="app_name">Jumio Mobile</string>
+	<!-- 
+	<string name="zip_code">Zip code</string>
+	<string name="zip_code_hint">e.g. 1010</string>
+	 -->
+	
+	<!-- POSSIBLE NETVERIFY SDK STRINGS TO OVERRIDE-->
+	<!-- 
+    
+    <string name="netverify_search">Search</string>
+	<string name="netverify_choose_country">Choose Country</string>
+	<string name="netverify_error_network_problems">We have encountered a network communication problem</string>
+	<string name="netverify_error_auth_failed">Authentication failed</string>
+	<string name="netverify_error_device_is_offline">No internet connection available</string>
+	<string name="netverify_error_startup_error">Scanning not available at this time, please contact the app vendor</string>
+	<string name="netverify_error_cancelled_by_user">Cancelled by end-user</string>
+	<string name="netverify_error_no_camera_connection">The camera is currently not available</string>
+	<string name="netverify_button_retry">Retry</string>
+	<string name="netverify_button_cancel">Cancel</string>
+	<string name="netverify_button_next">Next</string>
+	<string name="netverify_button_submit">Submit</string>
+	<string name="netverify_button_change_photos">Change photos</string>
+	<string name="netverify_button_done">Done</string>
+	<string name="netverify_documenttype_passport">Passport</string>
+	<string name="netverify_documenttype_idcard">Identity card</string>
+	<string name="netverify_documenttype_driverlicense">Driver license</string>
+	<string name="netverify_issued_after">issued after</string>
+	<string name="netverify_empty_list">No data in list</string>
+	<string name="netverify_actionbar_title_loading">Loading</string>
+	<string name="netverify_actionbar_title_country">Issuing country</string>
+	<string name="netverify_actionbar_title_documenttype">Document type</string>
+	<string name="netverify_actionbar_title_scan">Scan your ID</string>
+	<string name="netverify_actionbar_title_upload">Upload</string>
+	<string name="netverify_actionbar_title_submission">Submission</string>
+	<string name="netverify_front">Front</string>
+	<string name="netverify_back">Back</string>
+	<string name="netverify_face">Face</string>
+	<string name="netverify_take_photo_front">Tap to take or use an existing photo of the document\'s front.</string>
+	<string name="netverify_take_photo_back">Tap to take or use an existing photo of the document\'s back.</string>
+	<string name="netverify_take_photo_face">Tap to take a photo of your face.</string>
+	<string name="netverify_change_photo_front">Tap to change the photo of the document\'s front.</string>
+	<string name="netverify_change_photo_back">Tap to change the photo of the document\'s back.</string>
+	<string name="netverify_change_photo_face">Tap to retake the photo of your face.</string>
+	<string name="netverify_infobar_issuer_country">Select the issuing country of the ID you wish to scan</string>
+	<string name="netverify_infobar_document_type">Select the type of ID you wish to scan</string>
+	<string name="netverify_infobar_camera_view_idcard">Place identity card within brackets</string>
+	<string name="netverify_infobar_camera_view_driverlicense">Place driver license within brackets</string>
+	<string name="netverify_infobar_camera_view_passport">Place passport within the brackets</string>
+	<string name="netverify_infobar_camera_view_face">Place your face in front of the camera and take the photo.</string>
+	<string name="netverify_infobar_camera_view_barcode_driverlicense">Scan the bar code on the back</string>
+	<string name="netverify_infobar_extraction_in_progress">Extraction in progress ...</string>
+	<string name="netverify_infobar_processing_image">Processing image ...</string>
+	<string name="netverify_infobar_help_button">Help</string>
+	<string name="netverify_use_front_side_of_card">USE FRONT OF YOUR CARD</string>
+	<string name="netverify_use_back_side_of_card">USE BACK OF YOUR CARD</string>
+	<string name="netverify_submission_uploading">Your submission has been encrypted and is being securely uploaded to our servers. This may take some time.</string>
+	<string name="netverify_submission_complete">Thank you! Your submission was successfully received.</string>
+	<string name="netverify_submission_error">There was an error during the upload. You may check your internet connection and retry.</string>
+	<string name="netverify_milestone_upload">Upload</string>
+	<string name="netverify_milestone_finish">Finish</string>
+	<string name="netverify_help_view_passport">Your personal info is on the passport photo page. The code is at the bottom.</string>
+	<string name="netverify_help_view_idcard">The code of the identity card is at the bottom.</string>
+	<string name="netverify_help_view_mrz">Please make sure to fit the entire code within the green highlighted area.</string>
+	<string name="netverify_help_view_driverlicense_mrz">The code of the driver license is at the bottom.</string>
+	<string name="netverify_help_view_driverlicense_barcode">Scan the bar code in the highlighted green section.</string>
+	<string name="netverify_help_view_linefind">How to do it the right way.</string>
+	<string name="netverify_help_view_fallback_button_mrz">There is no code on my ID</string>
+	<string name="netverify_help_view_fallback_button_barcode">I can\'t scan my code</string>
+	<string name="netverify_confirm_linefinder_result_title">Please make sure all data is readable. If not, please retry.</string>
+    
+	-->
+	
+	<!-- POSSIBLE NETSWIPE SDK STRINGS TO OVERRIDE-->
+    <!-- 
+     
+	<string name="netswipe_activity_title_scan">Scan card</string>
+	<string name="netswipe_activity_title_manual_entry">Manual entry</string>
+	<string name="netswipe_activity_title_additional_info">Additional info</string>
+	
+	<string name="netswipe_error_view_button_try_again">Try again</string>
+	<string name="netswipe_error_view_button_cancel">Cancel</string>
+	<string name="netswipe_error_view_message_credit_card_not_supported">Your card type is not accepted</string>
+	<string name="netswipe_error_view_message_credit_card_expired">Your card is expired</string>
+	<string name="netswipe_error_view_message_auth_failed">Authentication failed</string>
+	<string name="netswipe_error_view_message_startup_error">Scanning not available at this time, please contact the app vendor</string>
+	<string name="netswipe_error_view_message_cancelled_by_user">Cancelled by end-user</string>
+	<string name="netswipe_error_view_message_background_execution_not_supported">Background execution not supported</string>
+	<string name="netswipe_error_view_message_no_camera_connection">The camera is currently not available</string>
+	
+	<string name="netswipe_help_view_accepted_creditcards">Accepted cards</string>
+	<string name="netswipe_help_view_how_to">Scan card with device camera</string>
+	
+	<string name="netswipe_top_info_align_card">Position front of your card within the overlay</string>
+	<string name="netswipe_top_info_extraction">Extraction in progress ...</string>
+	
+	<string name="netswipe_scan_area_use_front_of_card">USE FRONT OF YOUR CARD</string>
+	<string name="netswipe_scan_area_card_holder">Danielle Jumio</string>
+	<string name="netswipe_scan_area_creditcard_number">1234 5678 9123 4567</string>
+	<string name="netswipe_scan_area_valid_thru">VALID\nTHRU</string>
+	<string name="netswipe_scan_area_expiry_date">MM/YY</string>
+	
+	<string name="netswipe_manual_entry_card_number_invalid">Invalid card number</string>
+	<string name="netswipe_manual_entry_card_number_not_supported">Your card type is not accepted</string>
+	
+	<string name="netswipe_manual_entry_button_finish">Done</string>
+	<string name="netswipe_manual_entry_cvv">CVV</string>
+	<string name="netswipe_manual_entry_cvc">CVC</string>
+	<string name="netswipe_manual_entry_cid">CID</string>
+	<string name="netswipe_manual_entry_cav">CAV</string>
+	<string name="netswipe_manual_entry_cardholder_name">Card holder</string>
+	<string name="netswipe_manual_entry_credit_card">Credit card number</string>
+	<string name="netswipe_manual_entry_hint_month">MM</string>
+	<string name="netswipe_manual_entry_hint_year">YY</string>
+	<string name="netswipe_manual_entry_valid_through">Valid through</string>
+	
+	-->
+ 
+</resources>

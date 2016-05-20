@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="netswipe">
+        <attr name="netswipe_dialogToScreenRatioPortrait" format="float" />
+        <attr name="netswipe_dialogToScreenRatioLandscape" format="float" />
+        <attr name="netswipe_buttonTextColor" format="color" />
+        <attr name="netswipe_buttonColor" format="color" />
+    </declare-styleable>
+
+</resources>

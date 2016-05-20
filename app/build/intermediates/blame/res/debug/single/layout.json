@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\f DRIVE\\Card scan\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\f DRIVE\\Card scan\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\f DRIVE\\Card scan\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_results.xml",
+        "source": "E:\\f DRIVE\\Card scan\\app\\src\\main\\res\\layout\\activity_results.xml"
+    },
+    {
+        "merged": "E:\\f DRIVE\\Card scan\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_results_form.xml",
+        "source": "E:\\f DRIVE\\Card scan\\app\\src\\main\\res\\layout\\activity_results_form.xml"
+    }
+]

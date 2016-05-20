@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Netswipe" parent="style/Theme.Netswipe.TabletBase">
+	    <item name="netswipe_dialogToScreenRatioPortrait">0.6</item>
+	    <item name="netswipe_dialogToScreenRatioLandscape">0.6</item>
+	</style>
+</resources>
